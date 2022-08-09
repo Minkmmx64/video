@@ -1,0 +1,40 @@
+.TableContent{
+  width: 100%;
+  margin: 0 auto;
+  height: 800px;
+  background-color: rgb(253, 253, 253);
+  border: 1px rgb(64, 158, 255) dashed;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.TableContent > .TableSearchFrom{
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px rgb(226, 226, 226) dashed;
+  background-color: #fff;
+}
+
+.TableScroll {
+  &::-webkit-scrollbar {
+    width: 1px; //对垂直方向滚动条
+    height: 0px; //对水平方向滚动条
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, .1) //滚动条的颜色
+  }
+}
+
+.TableList{
+  width: 100%;
+  min-height: 550px;
+  border: 1px rgb(226, 226, 226) dashed;
+  margin-top: 20px;
+}
+
+.ElDialogHeader{
+  font-weight: 100;
+  color: rgba(45, 45, 45, 1);
+}
