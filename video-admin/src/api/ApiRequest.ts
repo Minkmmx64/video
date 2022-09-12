@@ -5,6 +5,7 @@ const AxiosConfig = <AxiosInstance>Axios.create({
   baseURL: BaseUrl,
   timeout: 500000,
   headers: { 'AuthToken': 'xxxxxx' },
+  withCredentials: true,
 })
 
 /**

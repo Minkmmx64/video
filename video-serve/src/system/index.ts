@@ -3,7 +3,7 @@
  */
 export const BaseUrl = {
   dev: {
-    url: "http://192.168.1.102",
+    url: "http://192.168.149.25",
     port: 8000,
   },
   prod: {

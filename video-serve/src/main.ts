@@ -56,16 +56,10 @@ async function bootstrap() {
   });
 
   app.enableCors({
-    origin: ["http://192.168.1.8:8082", 
-              "http://localhost:8082", 
-              "http://localhost:8081", 
-              "http://192.168.1.8:8081", 
-              "http://192.168.1.8:8080",
-              "http://localhost:8080", 
-              "http://192.168.1.102:8080",
-              "http://192.168.1.102:8081",
-              "http://192.168.1.102:8082"
-            ],
+    origin: [
+      "http://192.168.149.25:8080",
+      "http://192.168.149.25:8081",
+      "http://192.168.149.25:8082"],
     credentials: true
   });
 

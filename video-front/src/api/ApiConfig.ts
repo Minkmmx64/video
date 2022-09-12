@@ -3,7 +3,7 @@
  */
 export const ApiServe = {
   dev: {
-    url:"http://192.168.1.102:8000/"
+    url:"http://192.168.149.25:8000/"
   },
   pord: {
     url:"http://192.168.2.32:8000/"
